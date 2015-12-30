@@ -2,109 +2,53 @@
 <html>
   <head>
     <meta content="text/html; charset=windows-1252"
-      http-equiv="Content-Type">
+          http-equiv="Content-Type">
     <title>StPaulM-Home</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script> 
+      $(function(){
+        $("#header").load("header.html",
+                          function(){
+                            $("#home").addClass("active");
+                        }); 
+      });
+    </script> 
+    <div id="header"></div>
   </head>
   <body>
-    <div style="text-align: center;"><big><big><span style="font-family:
-            Broadway;"><big style="color: rgb(153, 0, 0);"><big><big><span
-                    style="font-family: Calligraph421 BT;"></span></big></big></big></span></big></big>
-      <table style="text-align: left; width: 1420px; background-color:
-        rgb(255, 255, 153); margin-left: auto; margin-right: auto;
-        height: 668px;" border="1" cellpadding="2" cellspacing="2">
-        <tbody>
-          <tr>
-            <td colspan="2" rowspan="1" style="vertical-align: top;">
-              <div style="text-align: center;"><img style=" width: 45px;
-                  height: 53px;" alt="" src="episcshield_6_75.png"><big><big><span
-                      style="font-family: Broadway;"><big style="color:
-                        rgb(153, 0, 0);"><big><big><span
-                              style="font-family: Calligraph421 BT;"><font
-                                size="+3"><big> St. Paul's TEC
-                                  Monongahela</big></font></span></big></big></big></span></big></big><br>
-                <table style=" text-align: left; width: 100%;"
-                  border="1" cellpadding="2" cellspacing="2">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align: top; background-color:
-                        rgb(255, 204, 102); font-family: Calligraph421
-                        BT; color: rgb(153, 0, 0); font-weight: bold;"><a
-                          href="index.html">Home Page</a><br>
-                      </td>
-                      <td style="vertical-align: top; background-color:
-                        rgb(255, 204, 102); font-family: Calligraph421
-                        BT; color: rgb(153, 0, 0); font-weight: bold;"><a
-                          href="StPaulM-About.html">About Us</a></td>
-                      <td style="vertical-align: top; background-color:
-                        rgb(255, 204, 102); font-family: Calligraph421
-                        BT; color: rgb(153, 0, 0); font-weight: bold;"><a
-                          href="StPaulM-Worship.html">Worship With Us</a></td>
-                      <td style="vertical-align: top; background-color:
-                        rgb(255, 204, 102); font-family: Calligraph421
-                        BT; color: rgb(153, 0, 0); font-weight: bold;"><a
-                          href="StPaulM-Meet.html">Meet Us</a></td>
-                      <td style="vertical-align: top; background-color:
-                        rgb(255, 204, 102); font-family: Calligraph421
-                        BT; color: rgb(153, 0, 0); font-weight: bold;"><a
-                          href="StPaulM-Information.html">Useful
-                          Information</a></td>
-                      <td style="vertical-align: top; background-color:
-                        rgb(255, 204, 102); font-family: Calligraph421
-                        BT; color: rgb(153, 0, 0); font-weight: bold;"><a
-                          href="StPaulM-Contact.html">Contact Us </a></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <big><big><span style="font-family: Broadway;"><big
-                      style="color: rgb(153, 0, 0);"><big><big><span
-                            style="font-family: Calligraph421 BT;"><font
-                              size="+3"><big><br>
-                              </big></font></span></big></big></big></span></big></big>
-              <table width="90%" align="center" border="0"
-                cellpadding="2" cellspacing="2">
-                <tbody>
-                  <tr>
-                    <td valign="top" width="33%" align="center">
-                      </br>
-                      </br>
-                      </br>
-                      <h2><big><font color="#ff0000">Christmas Eve Services</font></big></h2>
-                      <h1><small><font color="#ff0000">Thursday Dec. 24</font></small></h1>
-                      <h1><small><font color="#ff0000">Caroling 6:30pm - 7pm</font></small></h1>
-                      <h1><small><font color="#ff0000">Eucharist service starting at 7pm</font></small></h1>
-                    </td>
-                    <td valign="top" width="33%" align="center">
-                      <img style=" width: 480px; height: 360px;"
-                        alt="church building" src="StPaulsMon.jpg"
-                        width="480" height="360">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <big><big><span style="font-family: Broadway;"><big
-                      style="color: rgb(153, 0, 0);"><big><big><span
-                            style="font-family: Calligraph421 BT;"><font
-                              size="+3"><big> </big></font></span></big></big></big></span></big></big>
-              <div style="text-align: center;"><br>
-              </div>
-              <br>
-              <div style="text-align: center;"><big style="color:
-                  rgb(153, 0, 0);"><big><font size="+3"><span
-                        style="font-family: Calligraph421 BT;">Welcomes
-                        <span style="font-style: italic;">You!<br>
-                        </span>A Parish of the Episcopal Church<br>
-                        <big><font size="+3"><big>130</big> W. Main
-                            Street<br>
-                            <br>
-                          </font></big></span></font></big></big></div>
-              <big style="color: rgb(153, 0, 0);"><font size="+3"> </font></big></td>
-          </tr>
-        </tbody>
-      </table>
-      <big><big><span style="font-family: Broadway;"><big style="color:
-              rgb(153, 0, 0);"><big><big><span style="font-family:
-                    Calligraph421 BT;"></span></big></big></big></span></big></big><br>
-      <big><span style="font-family: Broadway;"></span></big></div>
+    <br>
+    <table width="90%" align="center" border="0"
+           cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td valign="top" width="33%" align="center">
+            <font color="#ff0000">
+              <br><br><br>
+              <h1>
+                Christmas Eve Services<br>
+                Thursday Dec. 24<br>
+                Caroling 6:30pm - 7pm<br>
+                Eucharist service starting at 7pm<br>
+              </h1>
+            </font>
+          </td>
+          <td valign="top" width="33%" align="center">
+            <img style=" width: 480px; height: 360px;"
+                 alt="church building" src="StPaulsMon.jpg"
+                 width="480" height="360">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <div style="text-align: center;font-family: Calligraph421 BT;">
+      <big style="color: rgb(153, 0, 0);">
+        <font size="+3">
+          Welcomes
+          <span style="font-style: italic;">You!</span><br>
+          A Parish of the Episcopal Church<br>
+          130 W. Main Street<br>
+        </font>
+    </div>
   </body>
 </html>

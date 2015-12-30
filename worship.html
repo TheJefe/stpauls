@@ -2,82 +2,44 @@
 <html>
   <head>
     <meta content="text/html; charset=windows-1252"
-      http-equiv="Content-Type">
+          http-equiv="Content-Type">
     <title>StPaulM-Worship</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script> 
+      $(function(){
+        $("#header").load("header.html",
+                          function(){
+                            $("#worship").addClass("active");
+                        }); 
+      });
+    </script> 
+    <div id="header"></div>
   </head>
   <body>
-    <div style="text-align: center;"><br>
-      <table style="text-align: left; width: 1420px; background-color:
-        rgb(255, 255, 153); margin-left: auto; margin-right: auto;
-        height: 649px;" border="1" cellpadding="2" cellspacing="2">
-        <tbody>
-          <tr>
-            <td colspan="1" rowspan="1" style="vertical-align: top;">
-              <div style="text-align: center;">
-                <img style=" width: 45px; height: 53px;" alt="" src="episcshield_6_75.png"/>
-                <big style="color: rgb(153, 0, 0);">
-                  <span style="font-family: Calligraph421 BT;">
-                    <font size="+5">
-                      St. Paul's TEC Monongahela
-                    </font>
-                  </span>
-                </big>
-                <br>
-                <table style=" text-align: left; width: 100%;"
-                       border="1" cellpadding="2" cellspacing="2">
-                  <tbody style="vertical-align: top; background-color:
-                        rgb(255, 204, 102); font-family: Calligraph421
-                        BT; color: rgb(153, 0, 0); font-weight: bold;">
-                    <tr>
-                      <td>
-                        <a href="index.html">Home Page</a><br>
-                      </td>
-                      <td>
-                        <a href="StPaulM-About.html">About Us</a>
-                      </td>
-                      <td>
-                        <a href="StPaulM-Worship.html">Worship With Us</a>
-                      </td>
-                      <td>
-                        <a href="StPaulM-Meet.html">Meet Us</a>
-                      </td>
-                      <td>
-                        <a href="StPaulM-Information.html">Useful Information</a>
-                      </td>
-                      <td>
-                        <a href="StPaulM-Contact.html">Contact Us</a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div style="text-align: center;font-family: Calligraph421 BT;color: rgb(153, 0, 0);">
-                  <br><br>
-                  <big>
-                    St. Paul's TEC worships using the Episcopal
-                    Church's
-                    <span style="font-style: italic;">
-                      Book of Common Prayer.<br>
-                    </span>
-                    The services are Sunday morning at 10:30 a.m.<br>
-                    Coffee follows the service.<br>
-                    The service is a Holy Eucharist.<br>
-                    The Episcopal Church welcomes all baptized
-                    Christians to take communion with us.<br>
-                    Others are welcome to receive a blessing, or
-                    simply participate in the prayers. <br>
-                    <br>
-                  </big>
-                  <span style="font-weight: bold;">
-                    <big>
-                        Come Join Us!<br><br>
-                        <img style=" width: 480px; height: 360px;" alt="church building" src="StPaulsMon.jpg">
-                      <br>
-                    </big>
-                  </span>
-                </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div style="text-align: center;font-family: Calligraph421 BT;color: rgb(153, 0, 0);">
+      <br><br>
+      <big>
+        St. Paul's TEC worships using the Episcopal
+        Church's
+        <span style="font-style: italic;">
+          Book of Common Prayer.<br>
+        </span>
+        The services are Sunday morning at 10:30 a.m.<br>
+        Coffee follows the service.<br>
+        The service is a Holy Eucharist.<br>
+        The Episcopal Church welcomes all baptized
+        Christians to take communion with us.<br>
+        Others are welcome to receive a blessing, or
+        simply participate in the prayers. <br>
+        <br>
+      </big>
+      <span style="font-weight: bold;">
+        <big>
+          Come Join Us!<br><br>
+          <img style=" width: 480px; height: 360px;" alt="church building" src="StPaulsMon.jpg">
+          <br>
+        </big>
+      </span>
+    </div>
   </body>
 </html>
