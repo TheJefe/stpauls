@@ -2,19 +2,20 @@
 <html>
   <head>
     <meta content="text/html; charset=windows-1252"
-      http-equiv="Content-Type">
+          http-equiv="Content-Type">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script> 
       $(function(){
-        $("#header").load("header.html",
-                          function(){
-                            $("#meet").addClass("active");
-                        }); 
+      $("#header").load("header.html",
+      function(){
+      $("#meet").addClass("active");
+      }); 
       });
     </script> 
-    <div id="header"></div>
   </head>
   <body style="text-align: center;font-family: Calligraph421 BT; color: rgb(153, 0, 0);">
+    <div id="container">
+      <div id="header"></div>
       <br>
       <h1>
         Our Priest
@@ -55,5 +56,6 @@
         </tr>
       </table>
       <br>
+    </div>
   </body>
 </html>

@@ -3,6 +3,7 @@
   <head>
     <meta content="text/html; charset=windows-1252"
           http-equiv="Content-Type">
+    <!-- <script src="jquery-2.2.1.min.js"></script> -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script> 
       $(function(){
@@ -12,91 +13,85 @@
       }); 
       });
     </script> 
-    <div id="header"></div>
   </head>
-  <body>
-    <br>
-    <table width="90%" align="center" border="0"
-           cellpadding="2" cellspacing="2">
-      <tbody>
-        <tr>
-          <td>
-            <table width="90%" align="center" border="0"
-                   cellpadding="2" cellspacing="2">
-              <tbody>
-                <tr>
-                  <td valign="top" width="33%" align="center">
-                    <font color="#ff0000">
-                      <h2>
-                        Holy Week Services:
-                        <br>
-                        March 20th: Palm Sunday 10:30AM
-                        <br>
-                        March 24th: Maundy Thursday 7:00PM
-                        <br>
-                        March 25th: Good Friday 1:30PM
-                        <br>
-                        March 27th: Easter Sunday 10:30AM
-                        <br>
-                        <br>
-                        Our
-                        <a href="fish_fry.html">fish fry</a>
-                          starts February 12th and will be open every Friday through Lent, including Good Friday, March 25th. The hours will be from 11am to 6pm.
-                        <br>
-                        <a href="fish_fry.html">Check out our Menu!</a>
-                        <br>
-                        <br>
-                        Join us for Eucharist services
-                        <br>
-                        every Sunday
-                        <br>
-                        starting at 10:30 am
-                      </h2>
-                    </font>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/stpaulmon" data-widget-id="684195189351563265" height="200">Tweets by @stpaulmon</a>
-                    <script >
-                      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-                    </script>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-          <td>
-            <table width="90%" align="center" border="0"
-                   cellpadding="2" cellspacing="2">
-              <tbody>
-                <tr>
-                  <td valign="top" width="33%" align="center">
-                    <img style=" width: 480px; height: 360px;"
-                         alt="church building" src="StPaulsMon.jpg"
-                         width="480" height="360">
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div style="text-align: center;font-family: Calligraph421 BT;">
-                      <big style="color: rgb(153, 0, 0);">
-                        <font size="+3">
-                          Saint Pauls welcomes
-                          <span style="font-style: italic;">You!</span><br>
-                          A Parish of the Episcopal Church<br>
-                          130 W. Main Street<br>
-                          Monongahela, PA
-                        </font>
-                      </big>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <body >
+    <div id="container">
+      <div id="header"></div>
+      <div id="left-content">
+        <br>
+        <table>
+          <tbody>
+            <tr>
+              <td valign="top" align="center">
+                <font color="#ff0000">
+                  <p>
+                    Holy Week Services:
+                    <br>
+                    March 20th: Palm Sunday 10:30AM
+                    <br>
+                    March 24th: Maundy Thursday 7:00PM
+                    <br>
+                    March 25th: Good Friday 1:30PM
+                    <br>
+                    March 27th: Easter Sunday 10:30AM
+                    <br>
+                    <br>
+                    Our
+                    <a href="fish_fry.html">fish fry</a>
+                    starts February 12th and will be open every Friday through Lent,
+                    including Good Friday, March 25th.
+                    The hours will be from 11am to 6pm.
+                    <br>
+                    <a href="fish_fry.html">Check out our Menu!</a>
+                    <br>
+                    <br>
+                    Join us for Eucharist services
+                    <br>
+                    every Sunday
+                    <br>
+                    starting at 10:30 am
+                  </p>
+                </font>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/stpaulmon" data-widget-id="684195189351563265" height="600">Tweets by @stpaulmon</a>
+                <script >
+                  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                </script>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="right-content">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img alt="church building" src="StPaulsMon.jpg"
+                     width="inherit" height="inherit"
+                     style="position: relative;">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div style="text-align: center; font-family: Calligraph421 BT; white-space: nowrap;">
+                  <font size="+3" style="color: rgb(153, 0, 0);">
+                    <p>
+                      Saint Paul's welcomes <span style="font-style: italic;">You!</span><br>
+                      A Parish of the Episcopal Church<br>
+                      130 W. Main Street<br>
+                      Monongahela, PA
+                    </p>
+                  </font>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </body>
 </html>

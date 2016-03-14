@@ -4,16 +4,35 @@
     <meta content="text/html; charset=windows-1252"
           http-equiv="Content-Type">
     <style>
-      nav {
+      div#header {
       text-align: center;
+      overflow: visible;
+      width: 100%;
       }
-      
+
+      div#container {
+      position: relative;
+      margin: 0 auto;
+      width: 75%;
+      }
+
+      div#left-content {
+      width: 49%;
+      float: left;
+      margin-right: 2%;
+      white-space: nowrap;
+      }
+
+      div#right-content {
+      width: 49%;
+      float: left;
+      }
+
       nav ul {
-      display: inline-block;
+      display: flex;
+      justify-content: space-between;
       list-style-type: none;
-      margin: 0;
       padding: 0;
-      overflow: hidden;
       border: 1px solid #e7e7e7;
       background-color: #f3f3f3;
       }
@@ -49,7 +68,7 @@
 
     </script>
     <header>
-      <span style="text-align: center;font-family: Calligraph421 BT;">
+      <span style="font-family: Calligraph421 BT;">
         <center>
           <img style=" width: 45px; height: 45px;" alt="" src="episcshield_6_75.png"/>
           <font size="+5">
