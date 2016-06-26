@@ -5,6 +5,7 @@
           http-equiv="Content-Type">
     <!-- <script src="jquery-2.2.1.min.js"></script> -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
     <script> 
       $(function(){
       $("#header").load("header.html",
@@ -16,7 +17,8 @@
     </script> 
   </head>
   <body>
-    <div id="container">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="StPaulsMon.jpg">
+      <div id="container">
       <div id="header"></div>
       <div id="left-content">
         <br>
@@ -71,6 +73,7 @@
         </table>
       </div>
       <div id="footer"></div>
+    </div>
     </div>
   </body>
 </html>
