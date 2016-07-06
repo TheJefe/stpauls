@@ -16,14 +16,10 @@
     </script> 
   </head>
   <body>
-    <div id="container">
       <div id="header"></div>
-      <div id="left-content">
+      <div class="ui two column centered grid">
+      <div class="column">
         <br>
-        <table>
-          <tbody>
-            <tr>
-              <td valign="top" align="center">
                 <font color="#ff0000" style="font-size: 20px">
                   <span id="text-area">
                   <p>Join us for Eucharist services</p>
@@ -32,20 +28,14 @@
                   </span>
                   <br>
                 </font>
-              </td>
-            </tr>
-            <tr>
-              <td id="twitter">
-                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/stpaulmon" data-widget-id="684195189351563265" height="100%">Tweets by @stpaulmon</a>
-                <script >
-                  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-                </script>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+                <div class="ui container">
+                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/stpaulmon" data-widget-id="684195189351563265" height="25em">Tweets by @stpaulmon</a>
+                    <script >
+                     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                    </script>
+                </div>
       </div>
-      <div id="right-content">
+      <div class="column">
         <table>
           <tbody>
             <tr>
@@ -70,7 +60,7 @@
           </tbody>
         </table>
       </div>
+      </div>
       <div id="footer"></div>
-    </div>
   </body>
 </html>
