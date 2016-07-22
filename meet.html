@@ -1,59 +1,52 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
-    <meta content="text/html; charset=windows-1252"
-          http-equiv="Content-Type">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script>
-      $(function(){
-      $("#header").load("header.html",
-      function(){
-      $("#meet").addClass("active");
-      });
-      });
-      $(function(){$("#footer").load("footer.html");});
-    </script>
-  </head>
-  <body>
-    <div id="container">
-      <div id="header"></div>
-      <div id="content" style="text-align: center;">
-      <br>
-      <h1>
-        The Parish Vestry (Governing Board)
-      </h1>
-      <ul class="no-bullets">
-          <li>Senior Warden: To be appointed</li>
-          <li>Junior Warden: Duane Patterson</li>
-          <li>Christian Education: Patricia Peck</li>
-          <li>Daughters of the King: Barbara Clegg</li>
-          <li>Outreach: Cindy Stants</li>
-          <li>Stewardship: Terri Vasquez</li>
-          <li>Organist: Barbara Clegg</li>
-          <li>Webmaster: Jeff Koenig</li>
-      </ul>
-        <h1>
-          Altar Guild
-        </h1>
-        <ul class="no-bullets">
-          <li>Dana Cannon</li>
-          <li>Lois Fonzi</li>
-          <li>Jennifer Lavins</li>
-          <li>Sandy Patterson</li>
-          <li>Cindy Stants</li>
-          <li>Karen Wilson</li>
-        </ul>
-      <h1>
-        Priest-in-charge:
-      </h1>
-      The Rev. Dr. Teresa (Terry) Gioia Hunt
-      <br>
-      <br>
-      <img alt="photo of the Rev. Hunt" src="Hunt2.jpg" width="113" height="144">
-      </div>
-      <br>
-      <br>
-      <div id="footer"></div>
-    </div>
-  </body>
+    <head>
+        <meta content="text/html; charset=windows-1252"
+              http-equiv="Content-Type">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script>
+         $(function(){
+             $("#header").load("header.html",
+                               function(){
+                                   $("#meet").addClass("active");
+                               });
+         });
+         $(function(){$("#footer").load("footer.html");});
+        </script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div id="content-container" style="text-align: center;">
+            <h1 class="ui header red">
+                The Parish Vestry (Governing Board)
+            </h1>
+            <div class="ui list">
+                <div class="item">Senior Warden: To be appointed</div>
+                <div class="item">Junior Warden: Duane Patterson</div>
+                <div class="item">Christian Education: Patricia Peck</div>
+                <div class="item">Daughters of the King: Barbara Clegg</div>
+                <div class="item">Outreach: Cindy Stants</div>
+                <div class="item">Stewardship: Terri Vasquez</div>
+                <div class="item">Organist: Barbara Clegg</div>
+                <div class="item">Webmaster: Jeff Koenig</div>
+            </div>
+            <h1 class="ui header red">
+                Altar Guild
+            </h1>
+            <div class="ui list">
+                <div class="item">Dana Cannon</div>
+                <div class="item">Lois Fonzi</div>
+                <div class="item">Jennifer Lavins</div>
+                <div class="item">Sandy Patterson</div>
+                <div class="item">Cindy Stants</div>
+                <div class="item">Karen Wilson</div>
+            </div>
+            <h1 class="ui header red">
+                Priest-in-charge:
+            </h1>
+            <p>The Rev. Dr. Teresa (Terry) Gioia Hunt</p>
+            <img class="ui image centered" alt="photo of the Rev. Hunt" src="Hunt2.jpg" width="113" height="144">
+        </div>
+        <div id="footer"></div>
+    </body>
 </html>
