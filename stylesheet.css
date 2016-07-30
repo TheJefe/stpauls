@@ -7,3 +7,7 @@ body {
 #centered-text {
     text-align: center;
 }
+
+#padded-table td{
+    padding: 10px;
+}
