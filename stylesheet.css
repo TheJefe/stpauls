@@ -1,9 +1,9 @@
-#content-container {
-    padding: 2em;
-}
 body {
     background-color: lightgray;
 }
 #contact-info {
     font-size: 1.5em;
+}
+#centered-text {
+    text-align: center;
 }
